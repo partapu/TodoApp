@@ -1,7 +1,7 @@
 const form = document.querySelector("form");
 const input = document.querySelector(".input");
 const todolists = document.querySelector(".todolists");
-let arr;
+let arr = [];
 if (JSON.parse(localStorage.getItem("todo"))) {
   arr = JSON.parse(localStorage.getItem("todo"));
   arr.forEach((td) => addToDo(td));

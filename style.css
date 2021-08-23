@@ -65,10 +65,16 @@ form {
 }
 .strick {
   text-decoration: line-through;
+  color: #b5b5b5;
 }
 .closebtn {
   position: absolute;
   top: 1rem;
   right: 1rem;
   cursor: pointer;
+}
+.insight {
+  text-align: center;
+  margin-top: 2rem;
+  color: #b5b5b5;
 }
